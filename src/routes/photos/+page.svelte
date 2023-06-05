@@ -17,10 +17,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 
   }
   .first_column, .second_column{
     margin: 10px;
+  }
+
+  img{
+    margin: 10px;
+    border-radius: 15px;
+    
   }
 </style>
 
