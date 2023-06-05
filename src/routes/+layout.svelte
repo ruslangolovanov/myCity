@@ -29,10 +29,7 @@
               title : "Достопримечательности",
               href : "/atractions",
           },
-          {
-              title : "Учебные заведения",
-              href : "/vuz",
-          }
+         
       ]
   </script>
   
