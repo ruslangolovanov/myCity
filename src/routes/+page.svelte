@@ -38,7 +38,7 @@
     .title{
         display: flex;
         justify-content: center;
-        background-image: url(./background.webp);
+        background-image: url(../components/imges/kazan_-_kremlin_-_panorama_2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         border-radius: 20px;

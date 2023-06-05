@@ -3,9 +3,9 @@
       <a href="/" class="nav-logo" title="Back to Homepage">Казань</a>
          <div class="nav-links">
              {#each nav as link}
-               {#if link.isShow}
+               
                   <a href = {link.href} class="link">{link.title}</a>
-               {/if}
+               
              {/each}
          </div>
     </div>
@@ -17,23 +17,21 @@
       const nav = [
           {
               title : "Фотографии",
-              href : "/about",
-              isShow : true
+              href : "/photos",
+              
           },
           {
               title : "История",
-              href : "/blog",
-              isShow : true
+              href : "/history",
+             
           },
           {
               title : "Достопримечательности",
-              href : "/project",
-              isShow : true
+              href : "/atractions",
           },
           {
               title : "Учебные заведения",
-              href : "/contact",
-              isShow : true
+              href : "/vuz",
           }
       ]
   </script>
